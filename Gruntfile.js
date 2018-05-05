@@ -39,9 +39,9 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-uglify');
 
     // Register tasks
-    // grunt.registerTask('run', function(){
-    //     console.log('I am running');
-    // });
+     grunt.registerTask('run', function(){
+         console.log('I am running');
+     });
 
     grunt.registerTask('concat-js', ['concat:js']);
     grunt.registerTask('concat-css', ['concat:css']);
