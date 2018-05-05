@@ -1,0 +1,5 @@
+GRUNTFILE.JS
+
+- Configures our tasks and tells plugins where to find certain files
+- Load plugins into the file (e.g uglify)
+- Register tasks which need to be run
